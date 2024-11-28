@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+body{
+    min-height: 1500px;
+    background-image: url("../image/bg-top.jpg"), url("../image/bg-bottom.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, bottom center;
+    background-size: contain, contain;
+    background-color: #f2f2f2;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    align-items: center;
+    list-style: none;
+}
+#menu li{
+    
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+#menu .spaces{
+    width: 200px;
+}
+#menu a{
+    color: #f2f2f2;
+    font-size: 1.1rem;
+    font-family: Cambria;
+}
+#section-1{
+    width: 990px;
+    height: 260px;
+    margin: 0 auto;
+    margin-top: 560px;
+    background-color: #112141;
+    position: relative;
+    display: grid;
+    grid-template-columns: 241px 491px auto;
+}
+#long-den{
+    position: absolute;
+    top: 0;
+    left:-76px;
+    z-index: 999;
+}
+#section-1 > div {
+    border: 3px solid #112141;
+}
+#left-buttom{
+    display: grid;
+    grid-template-rows:126px 62px 62px ;
+    gap: 3px;
+}
+#tai-game{
+    background-image: url("../image/btn_taigame.jpg");
+}
+#dang-ky{
+    background-image: url("../image/buttons-left.png");
+    background-position: 0 -2px;
+}
+/* #dang-ky:hover{
+    background-position: -248px -2px;
+    opacity: 1;
+}
+#nap-the{
+    background-image: url("../image/buttons-left.png");
+    background-position: 0 -66px;
+} */
+
+
